@@ -1,0 +1,5 @@
+- hosts: all
+  become: true
+  user: fedora
+  roles:
+    - { role: hekonsek.fedora-docker,0.4 }
